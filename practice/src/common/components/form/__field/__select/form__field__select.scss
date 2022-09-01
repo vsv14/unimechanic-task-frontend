@@ -1,0 +1,22 @@
+.form__field__select {
+    display: block;
+    width: 100%;
+    
+    box-sizing: border-box;
+    border: none;
+
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    background-color: white;
+    appearance:none;
+
+    background-image: url("../../assets/icons/bttns/ic_arrow_down_48.svg");
+    background-repeat: no-repeat;
+    background-position-y: -4px;
+    background-position-x: right;
+    background-size: 22px;
+}

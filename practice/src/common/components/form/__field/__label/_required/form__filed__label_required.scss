@@ -1,0 +1,9 @@
+.form__field__label_required::before {
+    content:"✱ ";
+    color: red;
+}
+
+.field-valid::before {
+  content:"✱ ";
+  color: #07dc00;
+}

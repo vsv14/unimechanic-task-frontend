@@ -1,0 +1,24 @@
+@import "src/common/mixins/device-media.scss";
+
+
+.d-grid {
+    display: grid;
+
+    & > .grid-col-start-sm {
+        @include mobile{
+            grid-column: 1;
+            grid-row: 1;
+        }
+    
+        @include laptop{ 
+            grid-column: 2;
+            grid-row: 1/-1;
+        }
+    
+        @include desktop{ 
+            grid-column: 2;
+            grid-row: 1/-1;
+        }
+    }  
+}
+

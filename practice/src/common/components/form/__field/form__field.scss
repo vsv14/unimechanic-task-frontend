@@ -1,0 +1,26 @@
+@import './__label/form__field__label.scss';
+@import './__input/form__field__input.scss';
+@import './__select/form__field__select.scss';
+
+
+
+
+.form__field {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    min-width: 163px;
+    height: 40px;
+    
+    margin-top: 32px;
+    padding: 8px 15px;
+
+    border: 1px solid #D6DADE;
+    border-radius: 2px;
+}
+
+
+.form__field:hover {
+    border: 1px solid #93c9ff;
+}

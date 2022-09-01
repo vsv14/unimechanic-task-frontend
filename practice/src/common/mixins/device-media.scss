@@ -1,0 +1,22 @@
+$desktop-screen:1400px;
+$laptop-screen:1200px;
+$mobile-screen:360px;
+
+
+@mixin desktop {
+   @media screen and (min-width: $desktop-screen) { 
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media screen and (min-width: $laptop-screen) { 
+         @content;
+     }
+ }
+
+ @mixin mobile {
+    @media screen and (min-width: $mobile-screen) { 
+         @content;
+     }
+ }

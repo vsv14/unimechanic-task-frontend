@@ -1,0 +1,26 @@
+@import './__bttn-close/form__field-img__container__bttn-close.scss';
+@import './__img/form__field-img__container__img.scss';
+
+
+.form__field-img__container {
+    position: relative;
+    width:fit-content;
+    height:fit-content;
+
+    margin-top: 12px;
+    border-radius: 50%;
+
+    margin-left: auto;
+
+    @include mobile{
+        margin-right: auto;
+    }
+
+    @include laptop{
+        margin-right: 0;
+    }
+
+    @include desktop{
+        margin-right: 0;
+    }
+}

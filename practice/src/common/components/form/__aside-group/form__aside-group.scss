@@ -1,0 +1,16 @@
+
+.form__aside-group {   
+    
+    
+    @include mobile{
+        width: 100%;
+    }
+
+    @include laptop{
+        width: 195px;
+    }
+
+    @include desktop{
+        width: 195px;
+    }
+}

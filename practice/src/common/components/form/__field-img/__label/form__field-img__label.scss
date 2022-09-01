@@ -1,0 +1,17 @@
+.form__field-img__label {
+    width: fit-content;
+    cursor: pointer;
+
+    margin-right: auto;
+    @include mobile{
+        margin-left: auto;
+    }
+
+    @include laptop{
+        margin-left: 32px;
+    }
+
+    @include desktop{
+        margin-left: 32px;
+    }
+}

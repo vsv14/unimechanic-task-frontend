@@ -1,6 +1,6 @@
 ### [Тестовое задание на позицию Junior Frontend Developer](https://docs.google.com/document/d/1rciG4uHU2B5N8b7VjThHVZNCYHi_uTKu2DYH6YpRlOo/edit)
 
-### Free service: render.com -> [Ссылка на выполненое задание](https://unimechanic-task-frontend.onrender.com/)
+### Practice -> [Ссылка на выполненое задание](https://unimechanic-task-frontend.onrender.com/)
 
 ### Tools
 - Node.js
